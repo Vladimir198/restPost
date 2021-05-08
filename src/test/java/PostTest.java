@@ -20,6 +20,6 @@ public class PostTest {
                 .then()
                 .statusCode(200)
                 .contentType(ContentType.JSON)
-                .body("data", equalTo("прив")/* --> ваша проверка здесь <-- */);
+                .body("data", equalTo("привет")/* --> ваша проверка здесь <-- */);
     }
 }
